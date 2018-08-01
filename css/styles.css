@@ -28,17 +28,17 @@ li {
   }
 
   .headerHeight{
-      height: 9vh;
+      height: auto;
       
   }
 
   .footerHeight{
-      height: 6vh;
+      height: 5vh;
      
       
   }
   .sectionHeight{
-    height: 85vh; 
+    height:100vh; 
     
 
   }
