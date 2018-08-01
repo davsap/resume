@@ -1,0 +1,102 @@
+
+header {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+header .navbar.navbar-light {
+    padding: 0;
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    height: 80vh;
+    flex-wrap: wrap;
+    align-content: center;
+   /* background-color: DodgerBlue;*/
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+   
+    text-align: center;
+    vertical-align: auto;
+    height: 100%;
+    font-size: 30px;
+  }
+
+  .littleColumnColor{
+      background-color: rgb(204, 136, 63);
+    
+  }
+
+  .headerHeight{
+      height: 10vh;
+      
+  }
+
+  .footerHeight{
+      height: 10vh;
+     
+      
+  }
+  .sectionHeight{
+    height: 80vh; 
+    
+
+  }
+  .shadowImagePosition{
+    position: absolute;
+    bottom: 15%;
+    
+  }
+
+  .imagePosition{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: -15%;
+    
+    left: 0;
+}
+
+.boder-img {
+    position: relative;
+    width: 87%;
+    -webkit-box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.1);
+}
+.flex-container{
+    display: flex;
+   
+    background-color: #f3ecec;
+
+}
+
+body .main-container {
+    background-color: #fff;
+    height: calc(100% - 0px);
+    height: -webkit-calc(100% - 0px);
+    height: -moz-calc(100% - 0px);
+    position: relative;
+    z-index: 3;
+}
+
+.row-section-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+/*---------------------------------------------------------------------
+                             Footer
+---------------------------------------------------------------------*/
+/* footer { position: fixed; bottom: 0; left: 0; display: inline-block; width: 100%; z-index: 9; }
+footer .footer-copyright { padding: 10px 0 10px 50px; }
+footer .follow-me { padding: 10px 50px 10px 0; } */
+.follow-me li:first-child:after { border-right: 1px solid #333333; }
+.follow-me li, .follow-us li a { font-size: 16px; color: #333333; float: left; margin-left: 10px; font-weight: 600; position: relative; }
+.follow-me li a:hover { color: #0072ff; }

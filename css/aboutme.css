@@ -1,0 +1,5 @@
+.about-info li { font-size: 18px; color: #333333; margin-bottom: 20px; width: 50%; float: left; }
+.about-info li:last-child { margin-bottom: 0; }
+.aboutFieldLabel{
+    font-weight: 500;
+}

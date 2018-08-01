@@ -1,0 +1,120 @@
+.inner-box {
+    background: #fffdfb;;
+    
+  border-top: 20px solid #fff;
+    border-bottom: 20px solid #fff;
+  
+    height: 88vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    overflow-y: auto;
+    
+}
+.resumeTitle{
+    color : #ad400d;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+.resumeRow{
+    scroll-behavior: smooth;
+    
+}
+.title{
+    position: relative; margin: 15px 0 15px; padding: 0 0 10px; font-size: 26px; 
+}
+.title:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    display: inline-block;
+    background: rgb(248, 245, 241);
+}
+
+.educationTtile{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    font-stretch: extra-expanded;
+    color: #0b0a53;
+
+}
+
+/*  Education & Experience Styles*/
+ul.education { margin: 20px 0 50px; list-style: none; position: relative; padding: 0 0 0 50px; display: inline-block; width: 100%; }
+ul.education li { position: relative; margin-left: 30px; background-color: #f6f5fcfd; padding: 20px; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
+ul.education li:hover { -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1); }
+ul.education li:not(:first-child) { margin-top: 60px; }
+ul.education li > span { width: 2px; height: 100%; background: #949299; left: -30px; top: 0; position: absolute; }
+ul.education li > span:before, ul.education li > span:after { content: ""; width: 10px; height: 10px; border-radius: 90%; border: 2px solid #706e75; position: absolute; left: -4px; top: -10px; }
+ul.education li span:after { top: 100%; }
+ul.education li > div { margin-left: 10px; }/*  */
+
+/* ############            Scroll bar styles  ######################################"*/
+/* width */
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #4c3979; 
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #4c3979; 
+}
+/* ----------------------------------------------------------------------------------- */
+
+.standForStyle{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 100;
+}
+
+span.number { height: 100%; }
+span.number span { position: absolute; left: -43px; font-weight: 600; color : rgb(130, 130, 223)}
+span.number span:first-child { top: -16px; }
+span.number span:last-child { top: 97%; }
+
+
+/*MY INTERESTS
+.interests li { float: left; display: inline-block; padding: 25px 15px; width: 15.44%; text-align: center; margin-right: 15px; background: #fff; border: 1px solid #eee; -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.05); -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.05); box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.05); }
+.interests li i { font-size: 34px; color: #0072ff; margin-bottom: 15px; }
+.interests li h6 { font-size: 18px; font-weight: 600; }
+.interests li:last-child { margin-right: 0; }
+*/
+.interests div {  padding: 25px 15px; width: 15.44%; text-align: center; margin-right: 15px; background: #fff; border: 1px solid #eee; -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.05); -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.05); box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.05); }
+.interests div i { font-size: 34px; color: #0072ff; margin-bottom: 15px; }
+.interests div h6 { font-size: 18px; font-weight: 600; }
+.interests div:last-child { margin-right: 0; }
+
+
+
+/*MY skills*/
+.SkillFontColor { color: #3a3a3b; }
+.skillColWith {width: 80%;}
+.iq-our-skills { position: relative; }
+.iq-our-skills:before { background: rgba(0, 0, 0, 0.9); content: ""; height: 100%; left: 0; opacity: 0.8; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; position: absolute; top: 0; width: 80%; }
+.iq-progress-bar-text { margin-bottom: 10px; }
+.iq-progress-bar-text span { float: right }
+.iq-progress-bar { background: #666 none repeat scroll 0 0; box-shadow: 0 0 0; height: 5px; margin: 0 0 30px; position: relative; width: 80%; }
+.iq-progress-bar > span { background: #0072ff none repeat scroll 0 0; display: block; height: 100%; width: 0; }
+
+.iconColor{
+    color :#1a0963;
+}
+
+
+
